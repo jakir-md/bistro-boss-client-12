@@ -4,13 +4,13 @@ import featuredImg from "../../../assets/home/featured.jpg";
 
 const Featured = () => {
   return (
-    <div className="py-10" style={{ backgroundImage: `url(${featuredImg})` }}>
+    <div className="py-10 bg-fixed" style={{ backgroundImage: `url(${featuredImg})` }}>
       <SectionTitle
         heading={"FROM OUR MENU"}
         subHeading={"check it out"}
       ></SectionTitle>
       <section>
-        <div className="flex gap-10 justify-center items-center px-40 py-30 pt-0 pb-30">
+        <div className="flex gap-10 bg-slate-400 bg-opacity-20 justify-center items-center px-40 py-30 pb-30">
           <div>
             <img src={featuredImg} alt="" />
           </div>
